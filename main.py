@@ -6,7 +6,7 @@ import time
 
 pygame.init()
 
-IMAGE_PATH = r"C:\Users\Kozak\Desktop\pisiyi.jpg"
+IMAGE_PATH = "pisiyi.jpg"
 image = pygame.image.load(IMAGE_PATH)
 WIDTH, HEIGHT = image.get_size()
 screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.NOFRAME)
@@ -122,3 +122,4 @@ while True:
 
     pygame.display.flip()
     clock.tick(60)
+
